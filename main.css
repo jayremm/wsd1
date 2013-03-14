@@ -30,7 +30,7 @@ h3 {
 	}
 	
 .i1{
-	position:absolute;
+	position: static;
 	list-style-type:circle;
 	float:left;
 	}		
@@ -49,7 +49,7 @@ ul {
 	border-radius:25px;
 	-moz-border-radius:25px;
 	font-family:Georgia, "Times New Roman", Times, serif;
-	background:
+	background: #666;
 	margin-left: 6px;
 	width: 100px;
 	float:left;
