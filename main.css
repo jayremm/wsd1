@@ -43,6 +43,10 @@ ul {
 	overflow:hidden;
 	color:#300
 	}
+
+div {
+	-moz-column-count: 3;
+	}	
 	
 .navbutton {
 	border:2px solid;
@@ -100,7 +104,4 @@ footer {
 	clear:both;
 	background:#666;
 	opacity: 0.8;
-	}	
-.ig {
-	image-size: 100px 100px;
 	}	
