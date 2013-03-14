@@ -30,7 +30,7 @@ h3 {
 	}
 	
 .i1{
-	float: left;
+	position:absolute;
 	list-style-type:circle;
 	}		
 	
