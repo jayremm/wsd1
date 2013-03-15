@@ -36,18 +36,24 @@ ul {
 	color:#300
 	}
 	
-.navbutton {
+.navb{
 	border:2px solid;
 	border-radius:25px;
-	-moz-border-radius:25px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	background: #333 url(../../Desktop/graident_gray.jpg);
 	overflow:hidden;
 	margin-left: 6px;
-	width: 100px;
-	float:left;
-	overflow:auto;
 	}
+	
+.b1{
+	border:thin;
+	border-image:url(gradientbutton.jpg);
+	}
+	
+.b2{
+	border:thin;
+	border-image:url(gradientbutton.jpg);
+	}		
 	
 .build {
 	list-style-type:square;
@@ -94,6 +100,15 @@ footer {
 	background:#666;
 	opacity: 0.8;
 	}	
-.ig {
-	image-size: 100px 100px;
+.i1 {
+	border:1px dotted #FFF;
+	margin: 20px auto;
+	}
+	
+.p1 {
+	float:left;
+	}	
+	
+.b11{
+	color:#666;
 	}	
