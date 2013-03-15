@@ -38,18 +38,22 @@ ul {
 	}
 	
 .navb{
-	width: 500px;
 	margin: 0 auto;
 	background: #999;
 	list-style-type: none;
 	padding: 0;
 	overflow:hidden;
+	border-bottom-style:groove;
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:500px;
+	border-radius:25px;
 	}
 	
 .b1{
 	width: 100px;
-	background: silver;
-	float:left
+	float:left;
 }
 	
 .b2{
