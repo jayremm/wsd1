@@ -1,18 +1,16 @@
 body {
 	font-family:Georgia, "Times New Roman", Times, serif;
-	margin: 0;
-	padding: 0;
-	padding-top: 10px;
-	text-align: center;
-	background-color:#999;
 	}
 	
 header {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	}
-nav a{
-	color: green;
-}
+	
+.navb{
+	float:left;
+	background-color: #999;
+	}	
+
 a:link{
 	color:#00F
 	}
@@ -27,79 +25,7 @@ a:hover{
 
 h3 {
 	text-shadow: 1px 1px #333; color:#333
-	}
-	
-.i1{
-	position: static;
-	list-style-type:circle;
-	float:left;
 	}		
-	
-ul {
-	width: 500px;
-	margin: 6px auto;
-	list-style-type:circle;
-	padding: 0;
-	overflow:hidden;
-	color:#300
-	}
-
-div {
-	-moz-column-count: 3;
-	-moz-column-gap:25 px;
-	}	
-	
-.navbutton {
-	border:2px solid;
-	border-radius:25px;
-	-moz-border-radius:25px;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	background: #666;
-	margin-left: 6px;
-	width: 100px;
-	float:left;
-	overflow:auto;
-	}
-	
-.build {
-	list-style-type:square;
-	color:#630;
-	position:inherit;
-	}	
-		
-h2 {
-    background: #666;
-	overflow:auto;
-	margin:5px;
-  }
-  
-.s1{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	border:2px solid;
-	border-radius:25px;
-	-moz-border-radius:25px;
-	background:#666;
-	overflow:auto;
-	margin:10px;
-	padding:3px;
-	}  
-	
-.lux {
-	border:solid;
-	float:left;
-	color:#666;
-	}
-	
-.plux{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	border:2px solid;
-	border-radius:25px;
-	-moz-border-radius:25px;
-	background:#666;
-	overflow:auto;
-	margin:10px;
-	padding:3px;
-	}
 			
 footer {
 	clear:both;
