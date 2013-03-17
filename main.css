@@ -2,20 +2,87 @@ body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 960px;
    margin:36px auto;
+   background:#00a6ce;
 	}
 	
+div {
+   -moz-column-count-:3;
+   -moz-column-gap-:25px;
+   }
+   	
 .intro{
    width:960px;
-   margin:0 auto;
+   margin:36px auto;
    overflow:hidden;
-   background: silver;
-   border: 2px double gray;
+   background:#d45521;
+   border:4px solid #5fbd47;
+   text-align:center;
+   padding:3px;
 }	
 
 header{
   text-align:center;
+  background:#d45521;
+  overflow:hidden;
+  border: 4px solid #5fbd47;
 }
 
+.build{
+   width:960px;
+   margin:36px auto;
+   overflow:hidden;
+   background:#d45521;
+   border:4px solid #5fbd47;
+   text-align:center;
+   padding:3px;
+}
+
+.p1{
+  width:960px;
+  margin:36px auto;
+  overflow:hidden;
+  background:#d45521;
+  border:4px solid #5fbd47;
+  text-align:center;
+  padding:3px;
+}
+
+.b1{
+ width:500px;
+ margin:0 auto;
+ list-style-type:circle;
+ padding:0;
+ overflow:hidden;
+ text-align:center; 
+} 
+
+ul{
+ width:500px;
+ margin:0 auto;
+ list-style-type:none;
+ padding:0;
+ overflow:hidden;
+}
+
+.l1{
+ width:100px;
+ float:left;
+ background:#5fbd47;
+}
+
+footer{
+  background:gray;
+  width:100%;
+  opacity:0.8;
+  font-size:10px;
+  text-align:center;
+}
+
+.lux{
+  text-align: center;
+}
+
+}
 a:link{
 	color:#00F
 	}
