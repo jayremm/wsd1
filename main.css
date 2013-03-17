@@ -1,16 +1,21 @@
 body {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	margin: 0;
-	padding: 0;
-	padding-top: 10px;
-	text-align: center;
-	background-color:#999;
+   font: 100%/1.5 "Georgia", Times New Roman, serif;
+   max-width; 960px;
+   margin:36px auto;
 	}
 	
-header {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	}
-	
+.intro{
+   width:960px;
+   margin:0 auto;
+   overflow:hidden;
+   background: silver;
+   border: 2px double gray;
+}	
+
+header{
+  text-align:center;
+}
+
 a:link{
 	color:#00F
 	}
@@ -24,102 +29,3 @@ a:hover{
 	background:#0FF;
 	}
 
-h3 {
-	text-shadow: 1px 1px #333; color:#333
-	}	
-	
-ul {
-	width: 500px;
-	margin: 6px auto;
-	list-style-type: none;
-	padding: 0;
-	overflow:hidden;
-	color:#300
-	}
-	
-.navb{
-	margin: 0 auto;
-	background: #999;
-	list-style-type: none;
-	padding: 0;
-	overflow:hidden;
-	border-bottom-style:groove;
-	border:2px solid #a1a1a1;
-	padding:10px 40px; 
-	background:#dddddd;
-	width:500px;
-	border-radius:25px;
-	}
-	
-.b1{
-	width: 100px;
-	float:left;
-}
-	
-.b2{
-	border:thin;
-	border-image:url(gradientbutton.jpg);
-	}		
-	
-.build {
-	list-style-type:square;
-	color:#630;
-	position:inherit;
-	}	
-		
-h2 {
-    background: #666;
-	overflow:auto;
-	margin:5px;
-  }
-  
-.s1{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	border:2px solid;
-	border-radius:25px;
-	-moz-border-radius:25px;
-	background:#666;
-	overflow:auto;
-	margin:10px;
-	padding:3px;
-	}  
-	
-.lux {
-	border:solid;
-	float:left;
-	color:#666;
-	}
-	
-.plux{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	border:2px solid;
-	border-radius:25px;
-	-moz-border-radius:25px;
-	background:#666;
-	overflow:auto;
-	margin:10px;
-	padding:3px;
-	}
-			
-footer {
-	clear:both;
-	background:#666;
-	opacity: 0.8;
-	}	
-.i1 {
-	border:1px dotted #FFF;
-	margin: 20px auto;
-	}
-	
-.p1 {
-	float:left;
-	}	
-	
-.b11{
-	color:#666;
-	}	
-
-div{
-	-moz-column-count:3;
-	-moz-column-gap:25px;
-	}	
