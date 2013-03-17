@@ -1,54 +1,60 @@
 body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 960px;
-   margin:36px auto;
-   background:#00a6ce;
+   margin:3.75% auto;
+   background:#333;
 	}
 	
-div {
-   -moz-column-count-:3;
-   -moz-column-gap-:25px;
+div { 
+   width:75%;
+   margin:3.75% auto;
+   overflow:hidden;
+   background:#006666;
+   border:.3em solid #003333;
+   text-align:center;
+   padding:0.41666667%;
+   font-weight: normal;
    }
    	
 .intro{
-   width:960px;
-   margin:36px auto;
+   width:75%;
+   margin:3.75% auto;
    overflow:hidden;
-   background:#d45521;
-   border:4px solid #5fbd47;
+   background:#006666;
+   border:.3em solid #003333;
    text-align:center;
-   padding:3px;
+   padding:0.41666667%;
 }	
 
 header{
   text-align:center;
-  background:#d45521;
+  background:#006666;
   overflow:hidden;
-  border: 4px solid #5fbd47;
+  border: .3em solid #003333;
 }
 
 .build{
-   width:960px;
-   margin:36px auto;
+   width:75%;
+   margin:3.75% auto;
    overflow:hidden;
-   background:#d45521;
-   border:4px solid #5fbd47;
+   background:#006666;
+   border:.3em solid #003333;
    text-align:center;
-   padding:3px;
+   padding:0.41666667%;
 }
 
 .p1{
-  width:960px;
-  margin:36px auto;
+  width:75%;
+  margin:3.75% auto;
   overflow:hidden;
-  background:#d45521;
-  border:4px solid #5fbd47;
+  background:#006666;
+  border:.3em solid #003333;
   text-align:center;
-  padding:3px;
+  padding:0.41666667%;
 }
 
 .b1{
- width:500px;
+ width:52.083333%;
  margin:0 auto;
  list-style-type:circle;
  padding:0;
@@ -57,7 +63,7 @@ header{
 } 
 
 ul{
- width:500px;
+ width:52.083333%;
  margin:0 auto;
  list-style-type:none;
  padding:0;
@@ -65,24 +71,32 @@ ul{
 }
 
 .l1{
- width:100px;
+ width:10.416667%;
  float:left;
- background:#5fbd47;
+ margin:1px auto;
+ padding:2px;
+ background:#003333;
+ overflow:hidden;
+ text-align:center;
 }
 
 footer{
   background:gray;
   width:100%;
   opacity:0.8;
-  font-size:10px;
+  font-size:0.6em;
   text-align:center;
 }
 
-.lux{
-  text-align: center;
+#luximg{
+  border:0.3em solid #003333;
+  width:21.5625%;
 }
 
+img{
+  max-width: 100%;
 }
+
 a:link{
 	color:#00F
 	}
