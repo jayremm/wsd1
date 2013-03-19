@@ -1,9 +1,16 @@
+/*-----------Body Content-----------*/
+
 body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 960px;
    margin:3.75% auto;
    background:#333;
 	}
+
+#columns{
+  -moz-column-count:3;
+  -moz-column-gap:25px;
+}
 	
 div { 
    width:75%;
@@ -16,6 +23,24 @@ div {
    font-weight: normal;
    }
    	
+#luximg{
+  border:0.3em solid #003333;
+  width:21.5625%;
+}
+
+img{
+  max-width: 100%;
+}
+
+.b1{
+ width:52.083333%;
+ margin:0 auto;
+ list-style-type:circle;
+ padding:0;
+ overflow:hidden;
+ text-align:center; 
+} 
+   	
 .intro{
    width:75%;
    margin:3.75% auto;
@@ -25,6 +50,16 @@ div {
    text-align:center;
    padding:0.41666667%;
 }	
+
+.p1{
+  width:75%;
+  margin:3.75% auto;
+  overflow:hidden;
+  background:#006666;
+  border:.3em solid #003333;
+  text-align:center;
+  padding:0.41666667%;
+}
 
 header{
   text-align:center;
@@ -42,60 +77,7 @@ header{
    text-align:center;
    padding:0.41666667%;
 }
-
-.p1{
-  width:75%;
-  margin:3.75% auto;
-  overflow:hidden;
-  background:#006666;
-  border:.3em solid #003333;
-  text-align:center;
-  padding:0.41666667%;
-}
-
-.b1{
- width:52.083333%;
- margin:0 auto;
- list-style-type:circle;
- padding:0;
- overflow:hidden;
- text-align:center; 
-} 
-
-ul{
- width:52.083333%;
- margin:0 auto;
- list-style-type:none;
- padding:0;
- overflow:hidden;
-}
-
-.l1{
- width:10.416667%;
- float:left;
- margin:1px auto;
- padding:2px;
- background:#003333;
- overflow:hidden;
- text-align:center;
-}
-
-footer{
-  background:gray;
-  width:100%;
-  opacity:0.8;
-  font-size:0.6em;
-  text-align:center;
-}
-
-#luximg{
-  border:0.3em solid #003333;
-  width:21.5625%;
-}
-
-img{
-  max-width: 100%;
-}
+/*----------Menu Items----------*/
 
 a:link{
 	color:#00F
@@ -110,3 +92,34 @@ a:hover{
 	background:#0FF;
 	}
 
+.nav{
+ width:52.083333%;
+ margin:0 auto;
+ list-style-type:none;
+ padding:0;
+ overflow:hidden;
+ background:#003333;
+}
+
+.l1{
+ width:10.416667%;
+ float:left;
+ border: .4em solid #003333; 
+}
+
+a {
+ text-decoration: none;
+ display: block;
+ height: 0.4%;
+ text-align:center;
+ color: red;
+ background: #003333;
+}
+
+footer{
+  background:gray;
+  width:100%;
+  opacity:0.8;
+  font-size:0.6em;
+  text-align:center;
+}
