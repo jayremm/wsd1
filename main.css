@@ -123,3 +123,24 @@ footer{
   font-size:0.6em;
   text-align:center;
 }
+
+/*--Media Queries
+=====================================*/
+
+/*Tablet Portrait Size to Standard 960 (Devices & Browsers)*/
+@media screen and (min-width:760px) and (max-width:959px) {
+
+
+}
+
+/*Mobile Landscape Size to Tablet Portrait (Devices & Browsers)*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+
+}
+
+/*Mobile Portrait Size to Mobile Landscape Size (Devices & Browsers)*/
+@media only screen and (max-width:479px) {
+
+
+}
