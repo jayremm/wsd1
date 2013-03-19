@@ -99,13 +99,14 @@ a:hover{
  list-style-type:none;
  padding:0;
  overflow:hidden;
+ background:#003333;
 }
 
 .l1{
  width:10.416667%;
  float:left;
  border: .4em solid #003333; 
- background:url(gradientbutton.png) no-repeat;
+ background: url(gradientbutton.png) no-repeat;
 }
 
 a {
@@ -114,6 +115,7 @@ a {
  height: 0.4%;
  text-align:center;
  color: red;
+ background: #003333;
 }
 
 footer{
