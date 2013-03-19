@@ -106,7 +106,7 @@ a:hover{
  width:10.416667%;
  float:left;
  border: .4em solid #003333; 
-}
+ background:url(gradientbutton.png) no-repeat;
 
 a {
  text-decoration: none;
