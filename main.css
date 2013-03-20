@@ -102,7 +102,7 @@ a:hover{
 }
 
 .l1{
- width:10.416667%;
+ width:4em;
  float:left;
  border: .4em solid #003333; 
  background: url(gradientbutton.png) no-repeat;
@@ -147,6 +147,10 @@ body {
 	color:orange;
 }
 
+.l1{
+	float:none;
+}
+
 }
 
 /*----------Mobile Landscape Size to Tablet Portrait (Devices & Browsers)*/
@@ -169,6 +173,10 @@ body {
 	color:green
 }
 
+.l1{
+	float:none;
+}
+
 }
 
 /*----------Mobile Portrait Size to Mobile Landscape Size (Devices & Browsers)*/
@@ -189,6 +197,10 @@ body {
 .b1{
 	list-style-type:none;
 	color:blue;
+}
+
+.l1{
+	float:none;
 }
 
 }
