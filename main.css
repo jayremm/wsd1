@@ -138,17 +138,29 @@ body {
 	}
 	
 #luximg{ 
- 		 background: red;
- 		 border: 2em dotted purple; /*----this is just for visual------*/ 
+ 	background: red;
+	border: 2em dotted purple; /*----this is just for visual------*/ 
+ 	float:none;
  }
 
 .b1{
-	list-style-type:square;
-	color:orange;
+	list-style-type:disk;
+	color:purple;
+	float:none;
 }
 
 .l1{
 	float:none;
+	color:green;
+	font-size: 1em;
+}
+
+.p1{
+	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
+}
+
+.intro{
+	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
 }
 
 }
@@ -166,16 +178,29 @@ body {
 #luximg{ 
 	background: green;
 	border:1em dashed blue; 
+	float:none;
 }
 
 .b1{
-	list-style-type:disk;
-	color:green
+	list-style-type:square;
+	color:orange;
+	float:none;
 }
 
 .l1{
 	float:none;
+	color:green;
+	font-size: 1em;
 }
+
+.p1{
+	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
+}
+
+.intro{
+	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
+}
+
 
 }
 
@@ -192,15 +217,28 @@ body {
 #luximg{ 
 	background: yellow;
 	border:1em double gray;
+	float:none;
  }
 
 .b1{
 	list-style-type:none;
-	color:blue;
+	color:green;
+	float:none;
 }
 
 .l1{
 	float:none;
+	color:green;
+	font-size: 1em;
 }
+
+.p1{
+	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
+}
+
+.intro{
+	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
+}
+
 
 }
