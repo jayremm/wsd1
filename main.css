@@ -127,20 +127,40 @@ footer{
 /*--Media Queries
 =====================================*/
 
-/*Tablet Portrait Size to Standard 960 (Devices & Browsers)*/
+/*----------Tablet Portrait Size to Standard 960 (Devices & Browsers)*/
 @media screen and (min-width:760px) and (max-width:959px) {
 
+body {
+   font: 100%/1.5 "Georgia", Times New Roman, serif;
+   max-width; 960px;
+   margin:3.75% auto;
+   background:#333;
+	}
+	
+	
 
 }
 
-/*Mobile Landscape Size to Tablet Portrait (Devices & Browsers)*/
+/*----------Mobile Landscape Size to Tablet Portrait (Devices & Browsers)*/
 @media only screen and (min-width:480px) and (max-width:767px) {
 
+body {
+   font: 100%/1.5 "Georgia", Times New Roman, serif;
+   max-width; 767px;
+   margin:3.75% auto;
+   background:#333;
+	}
 
 }
 
-/*Mobile Portrait Size to Mobile Landscape Size (Devices & Browsers)*/
+/*----------Mobile Portrait Size to Mobile Landscape Size (Devices & Browsers)*/
 @media only screen and (max-width:479px) {
 
+body {
+   font: 100%/1.5 "Georgia", Times New Roman, serif;
+   max-width; 479px;
+   margin:3.75% auto;
+   background:#333;
+	}
 
 }
