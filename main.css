@@ -134,10 +134,18 @@ body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 960px;
    margin:3.75% auto;
-   background:#333;
+   background:#555;
 	}
 	
-	
+#luximg{ 
+ 		 background: red;
+ 		 border: 2em dotted purple; /*----this is just for visual------*/ 
+ }
+
+.b1{
+	list-style-type:square;
+	color:orange;
+}
 
 }
 
@@ -148,8 +156,18 @@ body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 767px;
    margin:3.75% auto;
-   background:#333;
+   background:#222;
 	}
+
+#luximg{ 
+	background: green;
+	border:1em dashed blue; 
+}
+
+.b1{
+	list-style-type:disk;
+	color:green
+}
 
 }
 
@@ -160,7 +178,17 @@ body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 479px;
    margin:3.75% auto;
-   background:#333;
+   background:#444;
 	}
+
+#luximg{ 
+	background: yellow;
+	border:1em double gray;
+ }
+
+.b1{
+	list-style-type:none;
+	color:blue;
+}
 
 }
