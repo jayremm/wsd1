@@ -6,7 +6,7 @@ body {
    margin:3.75% auto;
    background:#333;
 }
-	
+		
 div { 
    width:75%;
    margin:3.75% auto;
@@ -116,6 +116,7 @@ a:hover{
  list-style-type:none;
  padding:0;
  overflow:hidden;
+ text-align:center;
 }
 
 .l1{
@@ -123,13 +124,13 @@ a:hover{
  float:left;
  border: .4em solid #003333; 
  background: url(gradientbutton.png) no-repeat;
+ text-align:center;
 }
 
 a {
  text-decoration: none;
  display: block;
  height: 0.4%;
- text-align:center;
  color: red;
 }
 
