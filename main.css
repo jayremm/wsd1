@@ -5,12 +5,6 @@ body {
    max-width; 960px;
    margin:3.75% auto;
    background:#333;
-	}
-
-#columns{
-  -moz-column-count:3;
-  -moz-column-gap:25px;
-  text-align:justify;
 }
 	
 div { 
@@ -23,6 +17,25 @@ div {
    padding:0.41666667%;
    font-weight: normal;
    }
+  
+.rec{
+   width:75%;
+   margin:3.75% auto;
+   overflow:hidden;
+   background:#006666;
+   border:.3em solid #003333;
+   text-align:center;
+   padding:0.41666667%;
+}
+   
+#table{
+  width:75%;
+  margin:3.75% auto;
+  background:#006666;
+  border:.3em solid #003333;
+  text-align:center;
+  padding:0.41666667%; 
+}   
    	
 #luximg{
   border:0.3em solid #003333;
@@ -50,7 +63,7 @@ img{
    border:.3em solid #003333;
    text-align:center;
    padding:0.41666667%;
-}	
+}	   
 
 .p1{
   width:75%;
@@ -77,6 +90,12 @@ header{
    border:.3em solid #003333;
    text-align:center;
    padding:0.41666667%;
+}
+
+#columns{
+  -moz-column-count:3;
+  -moz-column-gap:25px;
+  text-align:justify;
 }
 /*----------Menu Items----------*/
 
