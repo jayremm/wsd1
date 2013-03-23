@@ -22,6 +22,19 @@ table{
   text-align:center;
   margin:3.75% auto;
   border: double gray;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  text-align: center;
+  background: gray;
+  color: white;
+  padding: 0.2em;
+}
+
+td {
+  border: 1px solid black; padding: 0.2em;
 }
       	
 #luximg{
@@ -135,36 +148,26 @@ footer{
 @media screen and (min-width:760px) and (max-width:959px) {
 
 body {
-   font: 100%/1.5 "Georgia", Times New Roman, serif;
-   max-width; 960px;
-   margin:3.75% auto;
-   background:#555;
+	font: 100%/1.5 "Georgia", Times New Roman, serif;
+    max-width; 960px;
+    margin:3.75% auto;
+    background:#555;
 	}
 	
 #luximg{ 
- 	background: red;
+	background: red;
 	border: 2em dotted purple; /*----this is just for visual------*/ 
  	float:none;
  }
 
-.b1{
-	list-style-type:disk;
-	color:purple;
+header{
+	list-style-type:none;
+	text-decoration:underline;
 	float:none;
 }
 
 .l1{
-	float:none;
-	color:green;
-	font-size: 1em;
-}
-
-.p1{
-	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
-}
-
-.intro{
-	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
+	float:none
 }
 
 }
@@ -185,26 +188,15 @@ body {
 	float:none;
 }
 
-.b1{
-	list-style-type:square;
-	color:orange;
+header{
+	list-style-type:none;
+	text-decoration:underline;
 	float:none;
 }
 
 .l1{
-	float:none;
-	color:green;
-	font-size: 1em;
+	float:none
 }
-
-.p1{
-	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
-}
-
-.intro{
-	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
-}
-
 
 }
 
@@ -216,33 +208,23 @@ body {
    max-width; 479px;
    margin:3.75% auto;
    background:#444;
+   float:none;
 	}
 
 #luximg{ 
 	background: yellow;
 	border:1em double gray;
 	float:none;
- }
+}
 
-.b1{
+header{
 	list-style-type:none;
-	color:green;
+	text-decoration:underline;
 	float:none;
 }
 
 .l1{
-	float:none;
-	color:green;
-	font-size: 1em;
+	float:none
 }
-
-.p1{
-	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
-}
-
-.intro{
-	font: 90%/1.0 "Comic Sans MS", Georgia, Arial, Times New Roman, serif;	
-}
-
 
 }
