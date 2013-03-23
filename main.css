@@ -29,9 +29,7 @@ table{
   width:21.5625%;
 }
 
-img{
-  max-width: 100%;
-}
+
    	
 .intro{
    width:75%;
@@ -74,6 +72,15 @@ header{
   -moz-column-count:3;
   -moz-column-gap:25px;
   text-align:justify;
+}
+
+.i1{
+  max-width:80%;
+  text-decoration: none;
+  border:.7em solid #006666;
+  list-style-type:none;
+  text-align:center;
+  margin: 5% auto;
 }
 /*----------Menu Items----------*/
 
