@@ -16,27 +16,14 @@ div {
    text-align:center;
    padding:0.41666667%;
    font-weight: normal;
-   }
-  
-.rec{
-   width:75%;
-   margin:3.75% auto;
-   overflow:hidden;
-   background:#006666;
-   border:.3em solid #003333;
-   text-align:center;
-   padding:0.41666667%;
 }
-   
-#table{
-  width:75%;
-  margin:3.75% auto;
-  background:#006666;
-  border:.3em solid #003333;
+
+table{
   text-align:center;
-  padding:0.41666667%; 
-}   
-   	
+  margin:3.75% auto;
+  border: double gray;
+}
+      	
 #luximg{
   border:0.3em solid #003333;
   width:21.5625%;
@@ -45,15 +32,6 @@ div {
 img{
   max-width: 100%;
 }
-
-.b1{
- width:52.083333%;
- margin:0 auto;
- list-style-type:circle;
- padding:0;
- overflow:hidden;
- text-align:center; 
-} 
    	
 .intro{
    width:75%;
