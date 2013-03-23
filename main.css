@@ -112,11 +112,11 @@ a:hover{
 
 .nav{
  width:52.083333%;
- margin:0 auto;
+ margin:1em auto;
  list-style-type:none;
  padding:0;
- overflow:hidden;
  text-align:center;
+ overflow:hidden;
 }
 
 .l1{
