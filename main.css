@@ -4,14 +4,14 @@ body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
    max-width; 960px;
    margin:3.75% auto;
-   background:#333;
+   background:#fff;
 }
 		
 div { 
    width:75%;
    margin:3.75% auto;
    overflow:hidden;
-   background:#006666;
+   background:#cecabc;
    border:.3em solid #003333;
    text-align:center;
    padding:0.41666667%;
@@ -38,7 +38,7 @@ td {
 }
       	
 #luximg{
-  border:0.3em solid #003333;
+  border:0.3em solid #cecabc;
   width:21.5625%;
 }
 
@@ -48,7 +48,7 @@ td {
    width:75%;
    margin:3.75% auto;
    overflow:hidden;
-   background:#006666;
+   background:#cecabc;
    border:.3em solid #003333;
    text-align:center;
    padding:0.41666667%;
@@ -58,7 +58,7 @@ td {
   width:75%;
   margin:3.75% auto;
   overflow:hidden;
-  background:#006666;
+  background:#cecabc;
   border:.3em solid #003333;
   text-align:center;
   padding:0.41666667%;
@@ -66,7 +66,7 @@ td {
 
 header{
   text-align:center;
-  background:#006666;
+  background:#cecabc;
   overflow:hidden;
   border: .3em solid #003333;
 }
@@ -75,7 +75,7 @@ header{
    width:75%;
    margin:3.75% auto;
    overflow:hidden;
-   background:#006666;
+   background:#cecabc;
    border:.3em solid #003333;
    text-align:center;
    padding:0.41666667%;
@@ -90,7 +90,7 @@ header{
 .i1{
   max-width:80%;
   text-decoration: none;
-  border:.7em solid #006666;
+  border:.7em solid #cecabc;
   list-style-type:none;
   text-align:center;
   margin: 5% auto;
