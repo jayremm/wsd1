@@ -142,6 +142,16 @@ footer{
   text-align:center;
 }
 
+/*---------Form---------*/
+
+form.contact .buttonarea {
+  text-align: center;
+  padding: 4px;
+  background-color: #0066ff;
+}
+
+/*---------Table----------*/
+
 /*--Media Queries
 =====================================*/
 
