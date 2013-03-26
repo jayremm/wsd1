@@ -2,7 +2,7 @@
 
 body {
    font: 100%/1.5 "Georgia", Times New Roman, serif;
-   max-width; 960px;
+   max-width: 960px;
    margin:3.75% auto;
    background:#fff;
 }
@@ -150,12 +150,12 @@ footer{
 
 body {
 	font: 100%/1.5 "Georgia", Times New Roman, serif;
-    max-width; 960px;
+    max-width: 960px;
     margin:3.75% auto;
     background:#555;
 	}
 	
-#luximg{ 
+#luximg { 
 	background: red;
 	border: 2em dotted purple; /*----this is just for visual------*/ 
  	float:none;
