@@ -15,6 +15,7 @@
               <li class="l1"><a href="index.html">Home</a></li>
               <li class="l1"><a href="gallery.html">Images</a></li>
      	      <li class="l1"><a href="*">More</a></li>
+     	      <li class="l1"><a href="simpleform.html">Tell Us</a></li>
             </ul>
            </nav>
       </header>
@@ -130,17 +131,18 @@
   
   <!---------------Form---------------!>
   		
+  		<div>
      		<h1>Send us an Idea, criticism, or tell us what you think. </h1>
-    		<form method="get" action="http://jsmith0520@fullsail.edu/mail.php">
-      			<div>
+    		<form action="" method="post" class="contact">
+      			<div id="name">
         	<label for="yourname">Enter your name:</label>
         	<input type="text" name="yourname" id="yourname"/>
 				</div>
-				<div>
+				<div id="name">
         	<label for="email">Enter your E-mail:</label>
         	<input type="text" name="email" id="email"/>
 				</div>
-				<div>
+				<div id="name">
         	<label for="phone">Enter your phone #:</label>
         	<input type="text" name="phone" id="phone"/>
 				</div>
@@ -171,12 +173,10 @@
 				</div>
 				
 				<div>
-			<label for="hobbies">Please tell us what we are doing good or bad. Suggest new champion guides. Or you could thank us for the page.:
+			<label for="how">Please tell us what we are doing good or bad. Suggest new champion guides. Or you could thank us for the page.:
 			</label>
-			</div>
-			<div>
-			<textarea name="hobbies" rows="7" cols="40"
-    			id="hobbies">
+			<textarea name="how" rows="7" cols="40"
+    			id="how">
     		</textarea>
     		</div>
     
@@ -194,6 +194,7 @@
       		<input type="submit" value="Send Your Feedback"/>
       		</div>
     		</form>
+    	</div>	
   <footer>This page was designed by Jeremy Smith, for use of FullSail University Web Standards Design course.</footer> </div>  
 </body>
   </html>

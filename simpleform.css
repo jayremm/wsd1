@@ -1,0 +1,50 @@
+body{
+  background-color: #4bfced;
+}
+
+div { 
+   width:75%;
+   margin:3.75% auto;
+   overflow:hidden;
+   background:#dbe9e8;
+   text-align:center;
+   padding:0.41666667%;
+   font-weight: normal;
+}
+
+form.contact label.fixedwidth {
+  display: block;
+  width: 240px;
+  float: left;
+}
+   
+.nav{
+ width:52.083333%;
+ margin:1em auto;
+ list-style-type:none;
+ padding:0;
+ text-align:center;
+ overflow:hidden;
+}   
+   
+h1{
+ text-align:center;
+}
+
+
+input:focus {
+  background: #b4b1a3;
+}
+
+a:link{
+	color:#00F
+	}
+	
+a:visited{
+	color:#C00
+	}		
+
+a:hover{
+	color:#FF0;
+	background:#0FF;
+	}

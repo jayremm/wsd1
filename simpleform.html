@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Simple Form</title>
+    <meta charset="utf-8"/>
+  </head>
+  <link rel="stylesheet" href="simpleform.css"/>
+  <body>
+  
+  			<nav>
+            <ul class="nav">
+              <li class="l1"><a href="index.html">Home</a></li>
+              <li class="l1"><a href="gallery.html">Images</a></li>
+     	      <li class="l1"><a href="*">More</a></li>
+     	      <li class="l1"><a href="simpleform.html">Tell Us</a></li>
+            </ul>
+           </nav>
+  
+  		<h1> To help us out and keep in touch, please fill out the form below.</h1>
+    <form method="get" action="simpleform.html">
+      <div>
+      		<fieldset>
+     		<legend>Tell us how we can improve.</legend>
+   		 		<div>
+			<label for="contactname" class="fixedwidth">Contact Name</label>
+      		<input type="text" name="contactname" id="contactname"/>
+    			</div>
+				<div>
+			<label for="telephone" class="fixedwidth">Telephone
+         		 Number</label>
+      		<input type="text" name="telephone" id="telephone"/>
+				</div> 
+				<div>
+			<label for="email" class="fixedwidth">Email Address</label>
+      		<input type="text" name="email" id="email"/>
+    			</div>
+				<div>	
+  			<input type="checkbox" name="terms" class="phone"/>
+  			<label for="terms">I prefer to be contacted by phone.</label>
+				
+  			<input type="checkbox" name="terms" id="email"/>
+  			<label for="terms">I prefer to be contacted by email.</label>
+				
+  			<input type="checkbox" name="terms" id="no"/>
+  			<label for="terms">I prefer not to be contacted.</label>
+				</div>
+				<div>
+			<label for="how">Please tell us what we are doing, good or bad. Suggest new champion guides. Or you could thank us for the page.
+			</label>
+			<textarea name="how" rows="10" cols="45"
+    			id="how">
+    		</textarea>
+    			</div>
+				<div>
+  			<label for="role">Which best describes you?</label>
+  			<select name="role" id="role">
+    			<option>Gamer</option>
+    			<option>Web Designer</option>
+    			<option>Web Developer</option>
+    			<option>Other</option>
+  			</select>
+				</div>
+      			<div>
+      		<input type="submit" value="Send Your Feedback"/>
+      		</div>
+    		</form>
+    	</div>
+    	</fieldset>
+  </body>
+</html>

@@ -144,7 +144,13 @@ footer{
 
 /*---------Form---------*/
 
+input:focus {
+  background: #b4b1a3;
+}
 
+#name {
+  text-align:left;
+}
 
 /*---------Table----------*/
 
